@@ -1,0 +1,41 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  
+  .container {
+    margin: 50px;
+  }
+  
+  h1 {
+    margin-bottom: 20px;
+  }
+  
+  .stopwatch {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+  }
+  
+  .timer {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: white;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: lightgray;
+  }
+  
